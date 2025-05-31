@@ -1,7 +1,7 @@
-name = input("Enter your name : ")
-age = input("Enter your age : ")
-gpa = input("Enter your gpa(0-5) : ")
-interestedField = input("Enter your interested field : ")
+name = str(input("Enter your name : "))
+age = int(input("Enter your age : "))
+gpa = float(input("Enter your gpa(0-5) : "))
+interestedField = str(input("Enter your interested field : "))
 graduated = input("Are you graduated : ")
 
 if graduated == "Yes":
