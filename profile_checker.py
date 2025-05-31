@@ -2,7 +2,11 @@ name = str(input("Enter your name : "))
 age = int(input("Enter your age : "))
 gpa = float(input("Enter your gpa(0-5) : "))
 interestedField = str(input("Enter your interested field : "))
+
 graduated = str(input("Are you graduated ? "))
+
+
+
 
 if graduated == "Yes":
     print("I am graduated")
