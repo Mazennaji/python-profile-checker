@@ -12,6 +12,6 @@ else:
 if(age<25 and gpa>=3.5 and graduated=="Yes"):
     print("the user is eligible for a scholarship")
 elif(age < 30 and gpa >= 2.5):
-    print("he user is eligible for an internship")
+    print("the user is eligible for an internship")
 else:
     print("recommend they apply again later")
