@@ -9,6 +9,14 @@ if graduated == "Yes":
 else:
     print("I am not graduated")
 
+print("\n--- Your Information ---")
+print("Name:", name)
+print("Age:", age)
+print("GPA:", gpa)
+print("Field of Interest:", interestedField)
+print("Graduated:", graduated)
+
+
 if(age<25 and gpa>=3.5 and graduated=="Yes"):
     print("the user is eligible for a scholarship")
 elif(age < 30 and gpa >= 2.5):
